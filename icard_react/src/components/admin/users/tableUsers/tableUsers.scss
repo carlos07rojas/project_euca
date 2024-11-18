@@ -1,0 +1,14 @@
+.table-users-admin {
+  td {
+    &.table-status {
+        .icon{
+            &.check.circle.outline{
+                color: #008000;
+            }
+            &.times.circle.outline{
+                color: #f00;
+            }
+        }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+.table-product-admin {
+  td {
+    .ui.image {
+      width: 75px;
+      height: 79px;
+    }
+    
+    &.status {
+      .icon {
+        &.check.circle.outline {
+          color: #008000;
+        }
+        &.times.circle.outline {
+          color: #f00;
+        }
+      }
+    }
+  }
+}
